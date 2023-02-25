@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.31100f59.css",
-    "main.js": "/static/js/main.dec319f1.js",
-    "static/media/pink-pic.jpg": "/static/media/pink-pic.be90d5e1ee7c6ab5f31f.jpg",
-    "static/media/3568984.jpg": "/static/media/3568984.91c1ffaf819eca4dd3b6.jpg",
-    "static/media/pic2.jpg": "/static/media/pic2.2373323c6ed81b7dae0f.jpg",
-    "index.html": "/index.html",
-    "main.31100f59.css.map": "/static/css/main.31100f59.css.map",
-    "main.dec319f1.js.map": "/static/js/main.dec319f1.js.map"
+    "main.css": "/health_tracker/static/css/main.f175ae34.css",
+    "main.js": "/health_tracker/static/js/main.87f7f1ae.js",
+    "static/media/pink-pic.jpg": "/health_tracker/static/media/pink-pic.be90d5e1ee7c6ab5f31f.jpg",
+    "static/media/3568984.jpg": "/health_tracker/static/media/3568984.91c1ffaf819eca4dd3b6.jpg",
+    "static/media/pic2.jpg": "/health_tracker/static/media/pic2.2373323c6ed81b7dae0f.jpg",
+    "index.html": "/health_tracker/index.html",
+    "main.f175ae34.css.map": "/health_tracker/static/css/main.f175ae34.css.map",
+    "main.87f7f1ae.js.map": "/health_tracker/static/js/main.87f7f1ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.31100f59.css",
-    "static/js/main.dec319f1.js"
+    "static/css/main.f175ae34.css",
+    "static/js/main.87f7f1ae.js"
   ]
 }
