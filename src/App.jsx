@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="main">
+        <Route path="Main">
           <Route index element={<Main />} />
           <Route path=":recordId" element={<Edit />} />
         </Route>
