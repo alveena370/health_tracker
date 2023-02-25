@@ -1,16 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import { BrowserRouter } from "react-router-dom";
+
 import { MedicalContextProvider } from "./MedicalContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <MedicalContextProvider>
-        <App />
-      </MedicalContextProvider>
-    </BrowserRouter>
+    <MedicalContextProvider>
+      <App />
+    </MedicalContextProvider>
   </React.StrictMode>
 );
