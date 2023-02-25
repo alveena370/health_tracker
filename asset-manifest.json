@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/health_tracker/static/css/main.f175ae34.css",
-    "main.js": "/health_tracker/static/js/main.38edc542.js",
+    "main.js": "/health_tracker/static/js/main.ffedd3c7.js",
     "static/media/pink-pic.jpg": "/health_tracker/static/media/pink-pic.be90d5e1ee7c6ab5f31f.jpg",
     "static/media/3568984.jpg": "/health_tracker/static/media/3568984.91c1ffaf819eca4dd3b6.jpg",
     "static/media/pic2.jpg": "/health_tracker/static/media/pic2.2373323c6ed81b7dae0f.jpg",
     "index.html": "/health_tracker/index.html",
     "main.f175ae34.css.map": "/health_tracker/static/css/main.f175ae34.css.map",
-    "main.38edc542.js.map": "/health_tracker/static/js/main.38edc542.js.map"
+    "main.ffedd3c7.js.map": "/health_tracker/static/js/main.ffedd3c7.js.map"
   },
   "entrypoints": [
     "static/css/main.f175ae34.css",
-    "static/js/main.38edc542.js"
+    "static/js/main.ffedd3c7.js"
   ]
 }
