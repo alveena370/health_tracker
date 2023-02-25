@@ -1,0 +1,70 @@
+.Home {
+  min-height: 100vh;
+  width: 100vw;
+  // background: url(../../img/pink-pic.jpg);
+  background-image: url(../../img/pic2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px #777777;
+    padding: 3rem;
+    text-align: center;
+    // margin-top: 2rem;
+  }
+
+  .rowContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    // margin-top: 2rem;
+    form {
+      // width: 18rem;
+      width: 20rem;
+      color: rgb(65, 60, 60);
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      margin-right: 7rem;
+      padding: 1rem;
+      // background-color: rgba(255, 242, 242, 0.9);
+      background-color: rgb(166, 184, 183);
+      h2 {
+        font-size: 2rem;
+        color: rgb(65, 60, 60);
+        text-align: center;
+        margin-bottom: 1.2rem;
+      }
+
+      input {
+        margin-bottom: 0.8rem;
+        border: none;
+
+        &::placeholder {
+          color: rgb(65, 60, 60, 0.4);
+        }
+        &:focus {
+          box-shadow: 0 0 1px 3px rgb(238, 148, 165);
+        }
+      }
+      .Btn {
+        text-align: center;
+        button {
+          // background-color: rgb(250, 195, 205);
+          background-color: rgb(238, 148, 165);
+          color: rgb(65, 60, 60);
+          border: none;
+          &:active {
+            transform: scale(1.03);
+          }
+          &:hover {
+            color: white;
+            background-color: rgb(65, 60, 60);
+          }
+        }
+      }
+    }
+  }
+}

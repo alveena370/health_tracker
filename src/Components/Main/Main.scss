@@ -1,0 +1,51 @@
+.Main {
+  min-height: 100vh;
+
+  // background: linear-gradient(45deg, #5e2424cd, #1a0d0d41, #a74b4b, #0000006d);
+  .wrapper {
+    margin: 4rem 0 2rem;
+    h3 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .date-select {
+      margin-bottom: 0.3rem;
+      input {
+        width: 200px;
+      }
+    }
+
+    label {
+      font-weight: bolder;
+      font-size: 20px;
+    }
+
+    Button {
+      margin-top: 0.6rem;
+      // background-color: rgb(250, 195, 205);
+      background-color: rgb(221, 219, 219);
+      color: rgb(65, 60, 60);
+      border: none;
+      &:active {
+        transform: scale(1.03);
+      }
+      &:hover {
+        color: white;
+        background-color: rgb(65, 60, 60);
+      }
+    }
+
+    .input-container {
+      margin-bottom: 0.3rem;
+    }
+  }
+
+  .logOut {
+    width: 100px;
+  }
+  .data-wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+}

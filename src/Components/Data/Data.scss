@@ -1,0 +1,78 @@
+.Data {
+  .row {
+    font-size: 20px;
+    margin-bottom: 0.3rem;
+    // border: 1px solid;
+    margin-top: 0.3rem;
+
+    .date {
+      margin: auto;
+      font-size: 28px;
+      color: black;
+      font-weight: bolder;
+    }
+
+    .cols {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.32rem;
+    }
+
+    .three {
+      .button {
+        width: 100px;
+        margin-right: 0.2rem;
+        // background-color: rgb(214, 214, 214);
+        border: 3px solid rgb(250, 195, 205);
+        color: black;
+        &:active {
+          transform: scale(1.03);
+        }
+        &:hover {
+          border: 3px solid rgb(65, 60, 60);
+          color: white;
+          background-color: rgb(65, 60, 60);
+        }
+      }
+    }
+
+    .one,
+    .three {
+      background-color: rgb(243, 237, 237);
+    }
+
+    .two {
+      background-color: #f3c2c7;
+
+      .measure {
+        font-weight: bolder;
+        font-size: 25px;
+      }
+    }
+  }
+
+  .listItem {
+    h3 {
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .unit {
+      display: flex;
+      justify-content: space-evenly;
+
+      .icon {
+        font-size: 40px;
+        margin-right: 1rem;
+      }
+
+      .numbers {
+        font-size: 30px;
+      }
+    }
+  }
+}
