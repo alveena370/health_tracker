@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/health_tracker" element={<Home />} />
         <Route path="Main">
           <Route index element={<Main />} />
           <Route path=":recordId" element={<Edit />} />
